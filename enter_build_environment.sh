@@ -1,4 +1,4 @@
-PKGS="qemu-utils which radare2 unicorn unicorn-emu valgrind clang_18 clang-tools_18 llvm-manpages clang-manpages radare2-cutter coreutils-full man-db man-pages man-pages-posix nano pkgsCross.riscv64-embedded.stdenv qemu_full cmake ninja cppreference-doc re2 re2c linenoise gitFull git-credential-oauth procps ps tree-sitter github-cli git-hub nanorc bash-completion"
+PKGS="rvvm spike qemu-utils which radare2 unicorn unicorn-emu valgrind clang_18 clang-tools_18 llvm-manpages clang-manpages radare2-cutter coreutils-full man-db man-pages man-pages-posix nano pkgsCross.riscv64-embedded.stdenv qemu_full cmake ninja cppreference-doc re2 re2c linenoise gitFull git-credential-oauth procps ps tree-sitter github-cli git-hub nanorc bash-completion"
 if [[ ! -e ~/.verified_packages ]] ; then
 	mkdir ~/.verified_packages
 fi
